@@ -1,0 +1,23 @@
+# README #
+
+### Traffic Laws Belarus ###
+
+* Simple plain JavaScript application for traffic rules tests in Belarus
+* Version is 1.0.0
+
+### Set up ###
+
+git clone https://github.com/lehaSVV2009/traffic-laws-belarus.git
+cd traffic-laws-belarus
+python -m http.server 8000
+
+### Project specification ###
+
+Most of the application logic is stored in app folder.
+
+Package manager like npm is not used.
+
+There are 2 index.html files. The first one (index.html) uses non-minimized js files. The second one uses minimized app.min.js (index.min.html).
+Use https://jscompress.com for JavaScript files compression.
+
+All the questions and traffic rules chapters are stored in json files.
